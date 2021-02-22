@@ -68,13 +68,25 @@
                 1 of 3
             </div>
             <div class="col-6">
-                <iframe src=".../tetrax.html"></iframe>
+                <div id="tetris">
+                    <div id="menu">
+                      <p id="start"><a href="javascript:play();">Press Space to Play.</a></p>
+                      <p><canvas id="upcoming"></canvas></p>
+                      <p>score <span id="score">00000</span></p>
+                      <p>rows <span id="rows">0</span></p>
+                    </div>
+                    <canvas id="canvas">
+                      Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element
+                    </canvas>
+                  </div>
             </div>
             <div class="col">
                 3 of 3
             </div>
         </div>
     </div>
+    <script src="stats.js"></script>
+    <script src="games.js"></script>
 </body>
 
 </html>
